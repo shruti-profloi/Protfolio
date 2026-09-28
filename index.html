@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Shruti Portfolio</title>
+<title>Shruti - Portfolio</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
-body{background:#f0f0f0;padding:20px}
-.container{max-width:400px;margin:auto}
-.hero{background:white;padding:30px;border-radius:20px;text-align:center}
-.card{background:white;padding:20px;border-radius:15px;margin-top:15px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial;background:#f5f5f5;padding:20px}
+.container{max-width:600px;margin:auto}
+.hero{background:white;padding:30px;border-radius:15px;text-align:center;box-shadow:0 5px 10px rgba(0,0,0,0.1)}
+.card{background:white;padding:20px;border-radius:15px;margin-top:20px;box-shadow:0 5px 10px rgba(0,0,0,0.1)}
 input,textarea{width:100%;padding:12px;margin-top:10px;border:1px solid #ccc;border-radius:10px}
-.btn{width:100%;background:black;color:white;padding:12px;border-radius:30px;border:none;margin-top:15px;font-weight:bold}
+.btn{width:100%;background:black;color:white;padding:12px;border:none;border-radius:10px;margin-top:15px;font-weight:bold}
+.project-link{display:block;text-align:center;background:#4CAF50;color:white;padding:15px;border-radius:10px;text-decoration:none;font-weight:bold;margin-top:15px}
 </style>
 </head>
 <body>
 <div class="container">
-<div class="hero">
-<h1>Hi, I'm Aditya</h1>
-<p>BCS 2nd Year Student</p>
-</div>
-<div class="card">
-<h2>📩 Contact Me</h2>
-<form action="https://formsubmit.co/beb1863f19d2830c2990a240a9c252f7" method="POST">
-<input type="hidden" name="_captcha" value="false">
-<input type="text" name="name" placeholder="Tuza Nav" required>
-<input type="email" name="email" placeholder="Tujha Email" required>
-<textarea name="message" rows="4" placeholder="Message liha..." required></textarea>
-<button type="submit" class="btn">Send Message</button>
-</form>
-</div>
+  <div class="hero">
+    <h1>Hi, I'm Aditya</h1>
+    <p>BCS 2nd Year Student</p>
+    <a href="Calculator.html" class="project-link">🧮 My Calculator Project - Live Demo</a>
+  </div>
+
+  <div class="card">
+    <h2>📩 Contact Me</h2>
+    <form action="https://formsubmit.co/beb1..." method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button class="btn" type="submit">Send Message</button>
+    </form>
+  </div>
 </div>
 </body>
 </html>
